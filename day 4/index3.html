@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form onsubmit="submitForm(event)">
+            <label>First Name</label>
+            <!-- <input type="'text" name="firstName" placeholder="first name" onchange="firstNameChange(event)"/><br><br> -->
+            <input type="'text" name="firstName" placeholder="first name" onkeydown="firstNameChange(event)"/><br><br>
+            <label>Last Name</label>
+           <input type="'text" name="lastName" placeholder="lastName" /><br><br>
+            <input type="'number" name="age" /><laabel> Age<ge(event)/laabel><br><br>
+            <label>Hobbies</label><br>
+            <input type="checkbox" name="hobbies" value="webd"/><label> webd</label><br>
+            <input type="'checkbox" name="hobbies" value="sports"/><label> sports</label><br>
+            <input type="checkbox" name="hobbies" value="drawing"/><br><label> drawing</label><br>
+           <button style="background-color: yellow;"> SUBMIT</button>
+        </form>
+        <!-- keyup and key down ,
+        in key up if >3 then it will print correct on 4
+    but in key down >3 it will print correct at 5. as down jane par koi value nahi hoti hai
+press karne par assign hoti hai.  -->
+        
+    </div>
+    <script src="form.js"></script>
+    
+</body>
+</html>

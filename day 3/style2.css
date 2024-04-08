@@ -1,0 +1,139 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min: height 100vh; ;
+    max-height:100 vw ;
+   background-color: aqua;
+
+}
+.parent{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* top: 0px;
+    bottom: 100px; */
+    /* it is shifted from top and bottom at 100px */
+/* height and width wont matter in absolute */
+/* position: fixed;
+} */
+/* *{ padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.parent{
+    transition-property: height,width;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    background-color: blue;
+    transition-delay: 5s;
+    color: aqua;
+    height: 400px;
+    width: ;
+    text-align: center;
+    padding: 16px;
+
+}
+h2{
+    background-color: black;
+    height: 75px;
+}
+@media ( 800px <= width <=1200px) {
+    .parent{
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+    }
+    h2{
+        background-color: yellow;
+    }
+} */
+/* button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 8px 16px;
+    border: non;
+    border-radius:8px ;
+    font-size: none;
+    /* transition-property: scale;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out; */
+    /* if writtn in  button transit out and transit out happens at time */
+/* }
+
+button:hover{
+    background-color: brown;
+    cursor: pointer;
+    scale:2;
+    transition-property: scale;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out; */
+   /* if written  in hover tranist out immediately,  */
+
+
+/* /*   */
+
+/* button{
+    scale: 2;
+
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    animation-name: button-animation-type-1;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* after removing alternate the reverse process doesnot happen */
+
+
+/* } */
+/* @keyframe\
+'"-s button-animation-type-1{ */
+    /* from{
+        top: 20px;
+        left: 40px;
+    }
+    to{
+        top: 20px;
+        left: 400px;
+    } */
+    /* 0%{
+        top: 20px;
+        left: 500px;
+    }
+    60%{
+        top: 500px;
+        left: 500px;
+    }
+    100%{
+        top: 50px;
+        left: 300px; */
+    
+/* } * */
+/* .parent{
+    display: flex;
+    background-color: blueviolet;
+}
+.logo{
+    width: 50px;
+    border-bottom: 1px solid red;
+    padding: 16px;
+}
+.navbar{
+    background-color: yellow;
+    padding: 16px; */
+    /* flex-grow: 1; */
+    /* width: calc(100% - 50px); */
+/* } */
+
+
+
+
+
