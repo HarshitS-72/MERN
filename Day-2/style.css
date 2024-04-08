@@ -1,0 +1,147 @@
+/* *{
+    padding: 0;
+    margin:0 ;
+    box-sizing:border-box ;
+    using "*" we can change the entire style of the content
+   
+} */
+/* .heading_two {
+    background-color: yellow;
+    margin: 0px 20px 20px;
+    /* margin: 100px 10px: top right bottom left  */
+    /* padding: 16px ;
+    border: black solid ;
+    width: 24px 24px;
+    box-sizing: border-box;
+} */ 
+/* .heading_two{  padding: 300px;
+    p{
+        background-color: aqua;
+    }
+    span{
+        width: 250px;
+        
+        background-color: yellow;
+
+    } */
+/* .heading_two{
+    width: 200px;
+    background-color: aqua;
+    text-align: center;
+    margin: 0 auto;
+
+
+} */
+/* img{
+   display:block;
+   border: 1px solid black;
+   margin: 0 auto;
+} */
+/* html{
+    font-size: 16px;
+}
+.parent{
+    font-size: 16px;
+    background-color: blue;
+}
+.child{
+    font-size: 2em;
+    width: 10rem;
+    background-color: aqua;
+} */
+/* .btn{
+    display: block;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px auto;
+    font-size: 30px;
+    width: 120px;
+}
+.small_btn{
+    font-size: 10px;
+}
+.lrg_bttn{
+    font-size: 90px;
+} */
+/* body{
+    /* height: 100vh;
+    width: 100vw;
+    background-color: green; */
+
+}
+/* .parent{
+    height: 100px;
+    background-color: rgb(162, 29, 29);
+
+
+}
+.child{
+    width: 50%;
+    min-height: 200px;
+    padding: 16px 32px;
+    max-height: 300px;
+    /* height: 100px; */
+    /* background-color: rgb(0, 255, 47);
+    overflow: scroll; */
+
+/* }   */
+body{
+height: 100vh;
+width: 100vw;
+    padding: 10px 32px;
+}
+/* .parent{
+    ol{
+        /* background-color: red; */
+        /* li:nth-of-type(2){
+            background-color: rgb(195, 46, 46);
+            width:fit-content
+        }
+    }
+    ul:first-child{
+        background-color: purple;
+       
+        
+    }
+    ul:last-child{
+        background-color: yellow;
+    }
+} */ 
+/* .parent ul{
+    background-color: aqua;
+   /* this is used for the direct child, 2 child are there , one div an dne ul. */
+
+/* } */
+/* .parent>ul{
+    background-color: brown;
+    /* it used to select the direct child of the parent.
+    in this code there are only two child: div and ul. */
+/* } */
+/* .parent+ul{
+    background-color: blue;
+    /*it is used to select the ul which is not in parent .  */
+/* }
+.parent>div{
+    background-color: bisque;
+}
+ */ 
+ .parent{
+    background-color: rgb(47, 84, 205);
+    display: flex;
+    justify-content: center;
+    flex-basis: 40px;
+    flex-wrap: wrap;
+ }
+ .child{
+    background-color: aqua;
+    border: 1px solid red;
+    width: 30px;
+ 
+ }
+ .search-box{
+    flex-grow: 3;
+ }
+
+
+ 
