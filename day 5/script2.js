@@ -1,5 +1,6 @@
 // console.log('GEC Start');
 
+
 // function printPretty(){
 //     console.log('prettyStart')
 //         let ans= 2+3;
@@ -78,7 +79,6 @@
 // // callAPI();
 
 // // inserted the word in the main
-
 // function renderUI(){
 //     const root = document.getElementById("root");
 //     const div= document.createElement("div");

@@ -33,7 +33,7 @@ function renderUI(data){
 
    const childRow2 = document.createElement("tr");
    const c2 =document.createElement("th");
-   cell2.innerText'90f';
+   cell2.innerText'90 F';
    child1Row.appendchild(c2);
 
    root.appendChild(childRow);

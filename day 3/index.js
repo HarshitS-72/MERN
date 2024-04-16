@@ -42,7 +42,7 @@
 // let userAge= 'abcd';
 // userAge='abcd';
 // console.log(_)
-// camel case is not used in javascript.
+// camel case is used in javascript.
 // let arr= ['a', 'b', 'c', 'd'];
 // arr[0]= 'abcd';
 // console.log(arr);
